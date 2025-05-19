@@ -13,3 +13,11 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     document.querySelector("nav").classList.toggle("dark-mode");
   });
   
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+    if (window.scrollY > 0) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  });
