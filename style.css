@@ -94,7 +94,7 @@ body.dark-mode #home h1 {
 }
 
 body.dark-mode #home p{
-  color:  #2c3e50;
+  color:  #121213;
 }
 
 body.dark-mode section {
@@ -109,6 +109,10 @@ body.dark-mode footer {
 body.dark-mode .nav-links a,
 body.dark-mode .contact-links a {
   color: #90caf9;
+}
+
+h2.dark-mode{
+  color:#095db1;
 }
 
 /* Hero Section */
